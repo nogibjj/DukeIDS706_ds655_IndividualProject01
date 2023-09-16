@@ -1,12 +1,15 @@
 #List of Packages needed
-#datascience
+#  Data Science Packages
+
 jupyter
 pandas
+polars
 numpy
 scikit-learn
 matplotlib
 seaborn
-#Others
+
+#  Others - for the Github Workflows
 black
 click 
 pylint
