@@ -1,8 +1,11 @@
+#  IDS 706 Individual Project assignment
+#  Code for plotting the data using pandas
 #   Importing Packages
 import matplotlib.pyplot as plt
+import os
+import datetime
 
 
-#  Creating a function to build a scatterplot for the Iris dataset
 def PandasPlot(df):
     groups = df.groupby("species")
     fig, ax = plt.subplots()
@@ -17,9 +20,13 @@ def PandasPlot(df):
         )
     ax.legend()
     fig.suptitle(
-        "Distribution of Sepal Length and Sepal Width across different species"
+        "Distribution of Sepal Length and Sepal Width across different species \n generated on - "
+        + str(datetime.datetime.now())
     )
     plt.xlabel("Sepal Length")
     plt.ylabel("Sepal Width")
-    plt.savefig("./Resources/plot image.png")
+    if os.path.isfile("./Resources/PlotImage.png"):
+        os.remove("./Resources/PlotImage.png")
+    plt.savefig("./Resources/PlotImage.png")
+    print("Pasted Plot")
     plt.show()

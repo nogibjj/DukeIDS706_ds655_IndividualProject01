@@ -14,3 +14,4 @@ black
 click 
 pylint
 pytest
+tabulatehelper

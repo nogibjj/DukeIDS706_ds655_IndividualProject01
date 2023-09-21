@@ -1,4 +1,5 @@
-#  IDS 706 Week 2 assignment - testing our template using pandas
+#   IDS 706 Individual Project assignment -
+#   Code for testing our template using pandas
 import pandas as pd
 from Pandas_Description import PandasDesc
 from Pandas_Plot import PandasPlot
@@ -12,9 +13,10 @@ def test_Pandas():
 
     #   Creating the sample files in the Resources folder
     # Writing the summary statistics to a file Summary.md in output folder
-    Desc_df = PandasDesc(df_s)
-    with open("./Resources/Summary.md", "w", encoding="utf-8") as f:
-        f.write(str(Desc_df))
+    # Desc_df = PandasDesc(df_s)
+    # with open("./Resources/Summary.md", "w", encoding="utf-8") as f:
+    # f.write(str(Desc_df))
+    # print("Generated md file")
     # Pasting the sample graph in the output folder
     PandasPlot(df_s)
 
@@ -26,4 +28,4 @@ def test_Pandas():
     assert PandasDesc(df_r).equals(df_s.describe())
 
 
-test_Pandas()
+# test_Pandas()
