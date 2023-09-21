@@ -20,7 +20,7 @@ def PandasPlot(df):
         )
     ax.legend()
     fig.suptitle(
-        "Distribution of Sepal Length and Sepal Width across different species \n generated on - "
+        "Distribution of Sepal Length and Sepal Width\n generated on - "
         + str(datetime.datetime.now())
     )
     plt.xlabel("Sepal Length")

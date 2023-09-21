@@ -11,6 +11,6 @@ test:
 	python -m pytest \Codes/Test_*.py
 
 lint:
-	pylint --disable=R,C --ignore-patterns=\Codes/Check_.*?py \Codes/*.py
+	ruff check Codes/*.py
 
 all: install format lint test
