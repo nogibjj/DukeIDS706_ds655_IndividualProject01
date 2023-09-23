@@ -1,6 +1,7 @@
 #   IDS 706 Individual Project assignment -
 #   Code for testing our template using pandas
 import pandas as pd
+import sys
 
 sys.path.insert(0, "./Codes")
 from lib import PandasDesc
