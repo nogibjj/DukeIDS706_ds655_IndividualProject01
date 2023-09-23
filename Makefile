@@ -9,8 +9,8 @@ format:
 		black Codes/*.py
 
 test:
-	python -m py.test --nbval Codes/jupyter_notebook/test_*.ipynb 
-	python -m py.test -vv --cov=python_script Codes/python_script/*.py
+	python -m py.test --nbval Codes/test_*.ipynb 
+	python -m py.test -vv --cov=python_script Codes/*.py
 	python -m py.test -vv --cov=lib
 
 lint:
