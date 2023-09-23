@@ -10,8 +10,7 @@ format:
 
 test:
 	python -m py.test --nbval Codes/test_*.ipynb 
-	python -m py.test -vv --cov=python_script Codes/*.py
-	python -m py.test -vv --cov=lib
+	python -m pytest \Codes/test_*.py
 
 lint:
 	nbqa ruff Codes/*.ipynb &&\

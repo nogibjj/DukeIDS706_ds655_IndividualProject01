@@ -3,13 +3,14 @@
 import pandas as pd
 import sys
 
-sys.path.insert(0, "./Codes")
+sys.path.insert(0, "./Codes/")
 from lib import PandasDesc  # noqa: E402
 from lib import PandasPlot  # noqa: E402
 
 
 def test_Pandas_Lib():
     #   Reading Source Data from the Github Link
+    sys.path.insert(0, "./")
     DataSource_Link = "https://raw.githubusercontent.com/Opensourcefordatascience/Data-sets/master/Iris_Data.csv"
     data_s = pd.read_csv(DataSource_Link)
     df_s = pd.DataFrame(data_s)
