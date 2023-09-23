@@ -21,3 +21,5 @@ black_nbconvert
 ruff
 nbval
 nbqa
+pytest-playwright
+kaleido
