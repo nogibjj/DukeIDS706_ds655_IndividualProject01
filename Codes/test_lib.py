@@ -13,11 +13,8 @@ def test_Pandas_Lib():
     PandasPlot(df_s)
 
     #   Reading the Reference Data from the Resources Folder
-    DataReference_Link = "./Resources/Iris_Data.csv"
+    DataReference_Link = "../Resources/Iris_Data.csv"
     data_r = pd.read_csv(DataReference_Link)
     df_r = pd.DataFrame(data_r)
 
     assert PandasDesc(df_r).equals(df_s.describe())
-
-
-test_Pandas_Lib()
