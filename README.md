@@ -1,12 +1,13 @@
-# This is a default Python repository 
+# This is a Python repository with Continuous Integration using Github Actions 
 
 [![Python CI](https://github.com/DivyaSharma0795/Basic_Python_Repository/actions/workflows/main.yml/badge.svg)](https://github.com/DivyaSharma0795/Basic_Python_Repository/actions/workflows/main.yml)
 [![Black Formatter](https://github.com/nogibjj/DukeIDS706_ds655_IndividualProject01/actions/workflows/BlackFormatter.yml/badge.svg)](https://github.com/nogibjj/DukeIDS706_ds655_IndividualProject01/actions/workflows/BlackFormatter.yml)
 [![Install](https://github.com/nogibjj/DukeIDS706_ds655_IndividualProject01/actions/workflows/Install.yml/badge.svg)](https://github.com/nogibjj/DukeIDS706_ds655_IndividualProject01/actions/workflows/Install.yml)
 [![Lint](https://github.com/nogibjj/DukeIDS706_ds655_IndividualProject01/actions/workflows/RuffLint.yml/badge.svg)](https://github.com/nogibjj/DukeIDS706_ds655_IndividualProject01/actions/workflows/RuffLint.yml)
 
-Files in this repository include:
+Please follow this [link]() to see a video demonstrating this repository and the files in it.
 
+Files in this repository include:
 
 ## 1. Readme
   The `README.md` file is a markdown file that contains basic information about the repository, what files it contains, and how to consume them
