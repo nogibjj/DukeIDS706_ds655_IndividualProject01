@@ -43,11 +43,14 @@ This folder contains the output files relevant to this project. Currently, these
 
 
   ### 6(b). Github Actions
-  Github Actions uses 4 different YML files to call the functions defined in the Makefile based on triggers such as push or pull. Currently, every time a change is pushed onto the repository, it runs the install packages, formatting the code, linting the code, and then testing the code functions
-    -  `main.yml`
-    -  `Install.yml`
-    -  `RuffLint.yml`
-    -  `BlackFormatter.yml`
+  Github Actions uses 4 different YML files to call the functions defined in the Makefile based on triggers such as push or pull. The status badges for all these can be found at the top of the README file. 
+  Currently, every time a change is pushed onto the repository, it runs the install packages, formatting the code, linting the code, and then testing the code functions -
+  
+  -  `main.yml` - this runs every time a new commit happens in the repository
+  -  `Install.yml` - this installs the packages listed in requirements.txt
+  -  `BlackFormatter.yml` - this formats the jupyter notebook codes and python scripts using Black formatter
+  -  `RuffLint.yml` - this lints the code using ruff
+  
 
 
   ### 6(c). Devcontainer
