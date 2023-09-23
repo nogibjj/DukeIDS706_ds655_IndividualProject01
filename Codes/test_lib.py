@@ -4,8 +4,8 @@ import pandas as pd
 import sys
 
 sys.path.insert(0, "./Codes")
-from lib import PandasDesc
-from lib import PandasPlot
+from lib import PandasDesc  # noqa: E402
+from lib import PandasPlot  # noqa: E402
 
 
 def test_Pandas_Lib():
