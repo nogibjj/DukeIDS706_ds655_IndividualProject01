@@ -5,12 +5,16 @@ install:
 
 #Adding this to format code using black
 format:	
-	black \Codes/*.py 
+	nbqa black  Codes/*.ipynb &&\
+		black Codes/*.py
 
 test:
-	python -m pytest \Codes/Test_*.py
+	python -m py.test --nbval Codes/jupyter_notebook/test_*.ipynb 
+	python -m py.test -vv --cov=python_script Codes/python_script/*.py
+	python -m py.test -vv --cov=lib
 
 lint:
-	ruff check Codes/*.py
+	nbqa ruff Codes/*.ipynb &&\
+		ruff check Codes/*.py
 
 all: install format lint test
