@@ -25,8 +25,8 @@ def PandasPlot(df):
     )
     plt.xlabel("Sepal Length")
     plt.ylabel("Sepal Width")
-    if os.path.isfile("./Resources/PlotImage.png"):
-        os.remove("./Resources/PlotImage.png")
-    plt.savefig("./Resources/PlotImage.png")
+    if os.path.isfile("./Outputs/PlotImage.png.png"):
+        os.remove("./Outputs/PlotImage.png")
+    plt.savefig("./Outputs/PlotImage.png")
     print("Pasted Plot")
     plt.show()

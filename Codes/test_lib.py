@@ -20,4 +20,4 @@ def test_Pandas_Lib():
     assert PandasDesc(df_r).equals(df_s.describe())
 
 
-# test_Pandas()
+test_Pandas_Lib()

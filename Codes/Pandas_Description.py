@@ -8,9 +8,9 @@ import tabulatehelper as th
 
 def PandasDesc(df):
     """Code to return a summary of a dataframe and save it to a file"""
-    if os.path.isfile("./Resources/Summary.md"):
-        os.remove("./Resources/Summary.md")
-    f = open("./Resources/Summary.md", "w", encoding="utf-8")
+    if os.path.isfile("./Outputs/Summary.md"):
+        os.remove("./Outputs/Summary.md")
+    f = open("./Outputs/Summary.md", "w", encoding="utf-8")
     f.flush()
     d = df.describe()
     s = d.transpose()
