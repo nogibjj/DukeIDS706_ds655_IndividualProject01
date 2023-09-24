@@ -5,7 +5,7 @@
 [![Install](https://github.com/nogibjj/DukeIDS706_ds655_IndividualProject01/actions/workflows/Install.yml/badge.svg)](https://github.com/nogibjj/DukeIDS706_ds655_IndividualProject01/actions/workflows/Install.yml)
 [![Lint](https://github.com/nogibjj/DukeIDS706_ds655_IndividualProject01/actions/workflows/RuffLint.yml/badge.svg)](https://github.com/nogibjj/DukeIDS706_ds655_IndividualProject01/actions/workflows/RuffLint.yml)
 
-Please follow this [link]() to see a video demonstrating this repository and the files in it.
+Please follow this [link](https://clipchamp.com/watch/gXP3697pMaD) to see a video demonstrating this repository and the files in it.
 
 Files in this repository include:
 
